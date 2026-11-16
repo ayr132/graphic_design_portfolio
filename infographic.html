@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Infographic | Aris Syazwan</title>
+    <meta name="description" content="Information design that turns dense content into clear, scannable visuals." />
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Inter:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="page-shell">
+      <header class="topbar" aria-label="Main navigation">
+        <a class="brand" href="index.html" aria-label="Aris Syazwan home">
+          <span class="brand-mark" aria-hidden="true"></span>
+          <span>Aris Syazwan</span>
+        </a>
+
+        <nav class="nav" aria-label="Main menu">
+          <a href="index.html#work">Work</a>
+          <a href="index.html#services">Services</a>
+          <a href="about-me.html">About</a>
+          <a href="index.html#contact">Contact</a>
+        </nav>
+
+        <a class="button" href="index.html#work">Back to work</a>
+      </header>
+
+      <main>
+        <section class="section project-page" aria-labelledby="project-title">
+          <div class="section-head">
+            <div>
+              <p class="eyebrow">Print</p>
+              <h2 id="project-title">Infographic</h2>
+            </div>
+            <p>Information design that turns dense content into clear, scannable visuals.</p>
+          </div>
+
+          <div class="project-gallery">
+            <img src="./assets/infographic/bm pembentangan.jpg" alt="Oil-Up petrol station project infographic" loading="lazy" />
+            <object class="project-pdf" data="./assets/infographic/UNGS PRST -- INFOGRAPHIC.pdf" type="application/pdf" aria-label="UNGS infographic">
+              <a class="button" href="./assets/infographic/UNGS PRST -- INFOGRAPHIC.pdf" target="_blank" rel="noopener">Open UNGS infographic (PDF)</a>
+            </object>
+            <object class="project-pdf" data="./assets/infographic/BCDR acty 311.pdf" type="application/pdf" aria-label="BCDR activity infographic">
+              <a class="button" href="./assets/infographic/BCDR acty 311.pdf" target="_blank" rel="noopener">Open BCDR activity infographic (PDF)</a>
+            </object>
+            <object class="project-pdf" data="./assets/infographic/Add a little bit of body text.pdf" type="application/pdf" aria-label="Infographic">
+              <a class="button" href="./assets/infographic/Add a little bit of body text.pdf" target="_blank" rel="noopener">Open Infographic (PDF)</a>
+            </object>
+          </div>
+          <nav class="project-nav" aria-label="Project navigation">
+            <a class="button nav-prev" href="poster.html" rel="prev">&larr; <span><small>Previous</small>Poster</span></a>
+            <a class="button nav-home" href="index.html#work">Home</a>
+            <a class="button nav-next" href="videography.html" rel="next"><span><small>Next</small>Videography</span> &rarr;</a>
+          </nav>
+        </section>
+      </main>
+
+      <footer>
+        <span>© 2026 Aris Syazwan</span>
+        <span>Branding • Campaigns • Visual systems</span>
+      </footer>
+    </div>
+    <script src="gallery.js" defer></script>
+  </body>
+</html>
